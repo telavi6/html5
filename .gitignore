@@ -2,3 +2,29 @@
 *.css.map
 *.sass.map
 *.scss.map
+
+
+# Neovim-ის დროებითი ფაილები
+*.swp
+*.swo
+*.swn
+*.bak
+*.undo
+*.backup
+*.log
+
+# IDE-სა და სისტემის ფაილები
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Node.js დამოკიდებულებები (თუ იყენებ)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# კომპილირებული და გენერირებული ფაილები
+dist/
+build/
+.env
